@@ -13,8 +13,8 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-
-#include "iconv.h"
+#include "gnu-iconv.h"
+// #include "iconv.h"
 #include "node_api.h"
 
 #include <assert.h>
@@ -226,5 +226,10 @@ init(napi_env env, napi_value exports)
 
 	return exports;
 }
-
-NAPI_MODULE(iconv, init);
+try {
+	NAPI_MODULE(file2wcs, init);
+	// NAPI_MODULE(iconv, init);
+}
+catch (Exception e) {
+	printf("gnu-iconv Exception");
+}

@@ -19,19 +19,22 @@
 let workerThreads
 try
 {
-	workerThreads = require('worker_threads') // Introduced in v10.5.0.
+	workerThreads = require('worker_threads'); // Introduced in v10.5.0.
+
+	const { Worker, isMainThread } = workerThreads;
+	const { strictEqual } = require('assert');
+
+	if (isMainThread)
+		return new Worker(__filename);
+
+	require('./test-basic');
+	require('./test-big-buffer');
+	require('./test-stream');
+
 }
 catch (e)
 {
-	return
+	return;
 }
 
-const {Worker, isMainThread} = workerThreads
-const {strictEqual} = require('assert')
 
-if (isMainThread)
-	return new Worker(__filename)
-
-require('./test-basic')
-require('./test-big-buffer')
-require('./test-stream')

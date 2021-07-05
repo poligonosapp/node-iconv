@@ -5,11 +5,11 @@
   "homepage": "https://github.com/bnoordhuis/node-iconv",
   "repository": {
     "type": "git",
-    "url": "git://github.com/bnoordhuis/node-iconv.git"
+    "url": "git@github.com:poligonosapp/node-iconv.git"
   },
   "author": {
-    "name": "Ben Noordhuis",
-    "email": "info@bnoordhuis.nl"
+    "name": "Fábio Kefaro",
+    "email": "fabio.rodrigues@geopix.com.br"
   },
   "engines": {
     "node": ">=10.0.0"
@@ -17,6 +17,10 @@
   "license": "ISC",
   "readmeFilename": "README.md",
   "scripts": {
-    "test": "node test/run-tests.js"
+    "start": "start",
+    "test": "node test/run-tests.js",
+    "build": "build",
+    "release": "release",
+    "publish": "publish"
   }
 }
