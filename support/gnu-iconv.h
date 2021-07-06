@@ -1,5 +1,8 @@
 // https://www.gnu.org/software/libc/manual/html_node/iconv-Examples.html
 
+// #ifndef _LIBICONV_H
+// #define _LIBICONV_H
+
 int
 file2wcs(int fd, const char* charset, wchar_t* outbuf, size_t avail)
 {

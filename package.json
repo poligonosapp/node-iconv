@@ -8,7 +8,7 @@
     "url": "git@github.com:poligonosapp/node-iconv.git"
   },
   "author": {
-    "name": "Fábio Kefaro",
+    "name": "FÃ¡bio Kefaro",
     "email": "fabio.rodrigues@geopix.com.br"
   },
   "engines": {
@@ -19,8 +19,8 @@
   "scripts": {
     "start": "start",
     "test": "node test/run-tests.js",
-    "build": "build",
-    "release": "release",
+    "build": "node test/run-tests.js",
+    "release": "node test/run-tests.js",
     "publish": "publish"
   }
 }
