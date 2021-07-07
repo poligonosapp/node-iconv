@@ -180,6 +180,6 @@ function convert(conv, input, context) {
 function errnoException(code, errmsg)
 {
   const err = new Error(errmsg);
-  err.code = code;
+  // err.code = code;
   return err;
 }

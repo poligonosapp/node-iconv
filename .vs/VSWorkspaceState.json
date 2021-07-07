@@ -1,7 +1,8 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\spec"
   ],
-  "SelectedNode": "\\index.ts",
+  "SelectedNode": "\\binding.cpp",
   "PreviewInSolutionExplorer": false
 }

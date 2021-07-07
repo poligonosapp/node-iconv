@@ -17,7 +17,7 @@
 'use strict';
 
 import assert from 'assert';
-const Iconv = require('../').Iconv;
+export const Iconv = require('../').Iconv;
 
 // unknown source/target encoding
 assert.throws(function() { new Iconv('utf-8', 'xxx'); });

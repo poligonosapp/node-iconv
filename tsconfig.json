@@ -7,9 +7,10 @@
     "test/**/*ts"
   ],
   "compilerOptions": {
+    "esModuleInterop": true,
     "paths": {
-      "jquery": ["node_modules/jquery/dist/jquery"],
-      "*": ["*", "generated/*"]
+      "jquery": [ "node_modules/jquery/dist/jquery" ],
+      "*": [ "*", "generated/*" ]
     },
     "allowSyntheticDefaultImports": true,
     "forceConsistentCasingInFileNames": true,
@@ -28,7 +29,7 @@
     "importHelpers": true,
     "target": "es2015",
     "module": "es2020",
-    "lib": ["es2018", "dom"]
+    "lib": [ "es2018", "dom" ]
   },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
