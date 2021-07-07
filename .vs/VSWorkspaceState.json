@@ -1,11 +1,7 @@
 {
   "ExpandedNodes": [
-    "",
-    "\\deps\\libiconv",
-    "\\deps\\libiconv\\lib",
-    "\\support",
-    "\\test"
+    ""
   ],
-  "SelectedNode": "\\package.json",
+  "SelectedNode": "\\index.ts",
   "PreviewInSolutionExplorer": false
 }
