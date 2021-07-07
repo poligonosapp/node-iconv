@@ -6,7 +6,7 @@
   'targets': [
     {
       'target_name': 'iconv',
-      'sources': ['binding.c'],
+      'sources': ['binding.cpp'],
       'ccflags': ['-Wall', '-Wextra'],
       # Have to repeat flags on mac because of gyp's xcode emulation "feature".
       'xcode_settings': {
