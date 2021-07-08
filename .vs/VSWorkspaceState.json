@@ -1,8 +1,11 @@
 {
   "ExpandedNodes": [
     "",
-    "\\spec"
+    "\\conan",
+    "\\spec",
+    "\\src",
+    "\\src\\assets"
   ],
-  "SelectedNode": "\\binding.cpp",
+  "SelectedNode": "\\package.json",
   "PreviewInSolutionExplorer": false
 }

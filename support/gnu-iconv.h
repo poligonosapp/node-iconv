@@ -3,6 +3,9 @@
 // #ifndef _LIBICONV_H
 // #define _LIBICONV_H
 
+// utf8 4 bytes
+#define BUFSIZ 4
+
 int
 file2wcs(int fd, const char* charset, wchar_t* outbuf, size_t avail)
 {

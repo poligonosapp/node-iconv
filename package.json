@@ -20,7 +20,7 @@
     "scripts": {
         "start": "start",
         "test": "jasmine && node ./spec/run-tests.spec.ts",
-        "build": "node ./spec/run-tests.spec.ts",
+        "build": "npm install && node ./spec/run-tests.spec.ts",
         "release": "node ./spec/run-tests.spec.ts",
         "publish": "publish"
     },

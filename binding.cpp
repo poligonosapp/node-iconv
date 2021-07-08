@@ -13,9 +13,9 @@
  * ACTION OF CONTRACT, NEGLIGENCE OR OTHER TORTIOUS ACTION, ARISING OUT OF
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
-#include "gnu-iconv.h"
-// #include "iconv.h"
-#include "node_api.h"
+#include "gnu-iconv.h";
+#include "iconv.h";
+#include "node_api.h";
 
 #include <assert.h>
 #include <errno.h>
