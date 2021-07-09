@@ -1,5 +1,5 @@
-# node-iconv
-
+# node-iconv 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/e26fe16c-ef8d-42ae-8f91-c922f23547a8/deploy-status)](https://app.netlify.com/sites/node-iconv/deploys) 
 Text recoding in JavaScript for fun and profit!
 
 ## Supported encodings

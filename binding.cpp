@@ -40,6 +40,18 @@
 
 #define ARRAY_SIZE(x) (sizeof(x) / sizeof(*x))
 
+#include <iostream>
+
+#include <string.h>
+
+int main()
+{
+  std::cout << "Hello, World poligonosapp/node-iconv!" << std::endl;
+  getchar();
+  getchar();
+  return 0;
+}
+
 int
 getpointer(napi_env env, napi_value argv[], uint32_t idx, char **out)
 {
