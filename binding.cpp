@@ -14,8 +14,7 @@
  * OR IN CONNECTION WITH THE USE OR PERFORMANCE OF THIS SOFTWARE.
  */
 #include "node_api.h";
-#include "iconv.h";
-#include "gnu-iconv.h";
+#include ".//deps//libiconv//lib//iconv.h";
 
 #include <assert.h>
 #include <errno.h>
